@@ -1,0 +1,259 @@
+.left-text__background-img {
+  width: 100%;
+}
+
+.second-girl-img {
+  width: 100%;
+}
+
+.left-text__background {
+  width: 100%;
+}
+
+.left-text__title-h2 {
+  padding-top: 150px;
+  margin-top: -5px;
+}
+
+.text__title {
+  width: 100%;
+}
+
+.left-text__description-text {
+  font-size: 21px;
+  color: var(--main-text-color);
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 80px;
+  margin-bottom: 70px;
+  width: 90%;
+}
+
+.balance__button-join button {
+  font-size: 20px;
+  color: var(--main-text-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(230, 200, 195);
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+  margin-top: 20px;
+  margin-bottom: 160px;
+}
+
+.second-blok__women-program {
+  background-image: url(../img/second-background768px.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.left-text__background {
+  display: none;
+}
+
+.left-text__title-h2 {
+  padding-right: 16px;
+}
+
+.left-text__title-h2 {
+  width: 100%;
+  font-size: 40px;
+  color: var(--main-text-color);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  left: 24px;
+  padding-top: 50px;
+  margin-bottom: 56px;
+}
+
+.text__title {
+  width: 100%;
+}
+
+.left-text__description-text {
+  font-size: 21px;
+  color: var(--main-text-color);
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 24px;
+  margin-bottom: 56px;
+  width: 70%;
+}
+
+.balance__button-join button {
+  font-size: 20px;
+  color: var(--main-text-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(230, 200, 195);
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 24px;
+  margin-bottom: 56px;
+}
+
+@media (min-width: 768px) {
+  .left-text__background {
+    display: none;
+  }
+
+  .left-text__title-h2 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 100%;
+    left: 60px;
+    padding-top: 50px;
+    margin-bottom: 56px;
+  }
+
+  .left-text__description-text {
+    font-size: 21px;
+    left: 60px;
+    margin-bottom: 56px;
+    width: 70%;
+  }
+
+  .balance__button-join button {
+    width: 200px;
+    height: 50px;
+    left: 60px;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .second-girl {
+    display: none;
+  }
+
+  .left-text__background {
+    display: none;
+  }
+
+  .second-blok {
+    background-color: rgb(229, 226, 224);
+    background-image: url(../img/second-background.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    /* background-position: 100% 100%; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto 100%;
+  }
+
+  .main__right-text {
+    height: 100vh;
+  }
+
+  .second-blok__women-program {
+    background-image: none;
+  }
+
+  .main__left-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .left-text__title-h2 {
+    font-size: 60px;
+    margin-top: 150px;
+    font-size: 61.327px;
+    position: relative;
+    left: 50px;
+    margin-top: 70px;
+    margin-bottom: 56p;
+  }
+
+  .left-text__description-text {
+    font-size: 21px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    margin-bottom: 70px;
+    width: 90%;
+  }
+
+  .balance__button-join button {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(230, 200, 195);
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    left: 50px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .second-girl {
+    display: none;
+  }
+
+  .left-text__background {
+    display: none;
+  }
+
+  .second-blok__women-program {
+    background-image: none;
+  }
+  .left-text__title-h2 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-top: 150px;
+    font-size: 61.327px;
+    left: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .left-text__description-text {
+    font-size: 21px;
+    line-height: 1.6;
+    text-align: left;
+    left: 60px;
+    margin-bottom: 100px;
+    width: 90%;
+  }
+
+  .balance__button-join button {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    left: 60px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+}
